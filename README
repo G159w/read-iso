@@ -1,5 +1,5 @@
 
-==================================INTRODUCTION=================================
+============================== INTRODUCTION =============================
 
 
 Ths he goal of this project is to create an UNIX program able to read a CD-ROM 
@@ -12,7 +12,7 @@ an argument:
 -> ./my_read_iso /tmp/test.iso
 
 
-====================================USAGE======================================
+================================ USAGE ==================================
 
 
 TO COMPILE : make
@@ -30,7 +30,7 @@ CAN  BE USE WITH "make check" : make check ARG1=[BINARYTESTCOMPATED]
 --> make check ARG1="tests/my_read_iso"
 
 
-==================================FONFCTIONS==================================
+============================== FONFCTIONS ===============================
 
 
 help    : display command help
