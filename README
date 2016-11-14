@@ -1,0 +1,44 @@
+
+==================================INTRODUCTION=================================
+
+
+Ths he goal of this project is to create an UNIX program able to read a CD-ROM 
+filesystem, which means to read the content of a .iso file. I should respect 
+the ISO 9660 standard available on the Assistants’intranet.
+The program  take the path to the file containing the ISO 9660 filesystem as
+an argument:
+
+
+-> ./my_read_iso /tmp/test.iso
+
+
+====================================USAGE======================================
+
+
+TO COMPILE : make
+--> this will create the binary file "my_read_iso"
+--> my_read_iso [ISO] use the prompt
+--> my_read_iso [ISO] < [FILE] read your files and display
+
+
+TO USE THE TEST SUITE : ./tests/tests.sh [BINARYTESTCOMPARED] [ISO]
+--> this will check if the output of the binarytestcompared is the same that the
+one made
+
+
+CAN  BE USE WITH "make check" : make check ARG1=[BINARYTESTCOMPATED]
+--> make check ARG1="tests/my_read_iso"
+
+
+==================================FONFCTIONS==================================
+
+
+help    : display command help
+info    : display volume info
+ls      : display directory content
+cd      : change current directory
+tree    : display the tree of the current directory
+get     : copy file to local directory
+cat     : display file content
+quit    : program exit
+

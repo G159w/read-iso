@@ -1,0 +1,42 @@
+=====================================TODO======================================
+
+
+Advanced cd is not working :
+--> cd .. display changing to ".." directory
+--> cd . display changing to '.'directory
+--> cd - is not working at all
+
+ls date may not working as intented if the file date is unspesified
+
+
+==================================THRESHOLD 0==================================
+
+
+ls:      [OK]
+cd:      [OK]
+cat:     [OK]
+info:    [OK]
+help:    [OK]
+quit:    [OK]
+
+
+==================================THRESHOLD 1==================================
+
+
+get:     [OK]
+tree:    [OK]
+adv cd:  [KO]
+
+
+=================================OUTPUT ERROR=================================
+
+
+ls:      [OK]
+cd:      [OK]
+cat:     [OK]
+info:    [OK]
+help:    [OK]
+quit:    [OK]
+get:     [OK]
+tree:    [OK]
+
